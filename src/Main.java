@@ -1,5 +1,11 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+
+        int price = 41_339;
+        int rublesPerMile = 20;
+
+        int bonus = price / rublesPerMile;
+        System.out.println("Бонус равен:" + bonus + "миль(ли/ля)");
+
     }
 }
